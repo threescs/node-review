@@ -38,6 +38,6 @@ if(result < 0) {
 }else if(result == 0) {
     console.log(buffer1 + '与' + buffer2 + '相同');
 }else {
-    console.log(buffer1 + '在' + buffer2 + '之后')
+    console.log(buffer1 + '在' + buffer2 + '之后');
 }
 console.log(result);
