@@ -6,4 +6,4 @@ fs.createReadStream('input.txt')
   .pipe(zlib.createGzip())
   .pipe(fs.createWriteStream('input.txt.gz'));
 
-  console.log("文件压缩完成")
+  console.log("文件压缩完成");
