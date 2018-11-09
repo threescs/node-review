@@ -23,7 +23,7 @@ const helper = {
     /**
      * 上传文件
      * @param {Object} req 请求头 
-     * @param {String} savePath 保存路径
+     * @param {String} savePath 保存路径    
      * @param {String} writePath 写入数据库的路径
      * @param {String} fileName 文件名 不填 默认当前文件名 
      */
