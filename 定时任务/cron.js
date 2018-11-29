@@ -8,4 +8,4 @@ const cron = ({ second = 1}={})=> {
 const testFn = () => {
     console.log(1111);
 }
-cron({second: 1})
+cron({second: 1}) //每分钟的第1秒触发
