@@ -27,7 +27,7 @@
 
 // 写入流
 var fs = require("fs");
-var data = "// 小帅是个帅哥"
+var data = "// 小帅是个帅哥,李美女是个美女"
 
 var writeStream = fs.createWriteStream('shuai.txt');
 
